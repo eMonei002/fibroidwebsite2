@@ -677,6 +677,87 @@ input, select {
   to { transform: translateY(0); opacity: 1; }
 }
 
+.treatment-plans {
+  padding: 80px 20px;
+  background: #f9fafb;
+  text-align: center;
+}
+
+.plans-subtitle {
+  max-width: 700px;
+  margin: 0 auto 40px;
+  color: #475569;
+}
+
+.plans-grid {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.plan-card {
+  background: white;
+  padding: 30px;
+  width: 300px;
+  border-radius: 12px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+  transition: 0.3s ease;
+  position: relative;
+}
+
+.plan-card:hover {
+  transform: translateY(-10px);
+}
+
+.plan-price {
+  font-size: 28px;
+  font-weight: bold;
+  color: #065f46;
+  margin: 15px 0;
+}
+
+.plan-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background: #047857;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.plan-btn:hover {
+  background: #065f46;
+}
+
+.best {
+  border: 2px solid #047857;
+}
+
+.best-tag {
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #facc15;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.highlight-btn {
+  background: #f59e0b;
+}
+
+.highlight-btn:hover {
+  background: #d97706;
+}
+
+
+
 
 
 
